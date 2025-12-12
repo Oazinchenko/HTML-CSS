@@ -1,0 +1,54 @@
+body{
+    background-color: beige;
+     height: 100%;
+}
+
+* {
+    margin: 0;
+   padding: 0;
+
+}
+
+
+  .year{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 15px 0;
+      background-color: darkolivegreen;
+
+
+  }
+  .month{
+      width: 210px;
+      height: 260px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      background-color: darkseagreen;
+
+
+  }
+  .month h1{
+
+      font-size: smaller;
+      font-weight:bold;
+      margin-inside: auto;
+      padding: 10px;
+
+
+
+
+
+  }
+  .month p{
+
+     line-height: 25px;
+      margin-inside: auto;
+      padding: 2px;
+  }
