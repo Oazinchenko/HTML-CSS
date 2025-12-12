@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+}
+
+body {
+    background: beige;
+    height: 100vh
+
+
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background:bisque;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    background-color: lightgrey;
+}
+
+.rubik-glitch-regular {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
