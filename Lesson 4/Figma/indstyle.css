@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    border: none;
 
 }
 .w-1070{
@@ -89,5 +90,24 @@ header nav  a{
     width: 409.426px;
 }
 .hero button{
+    width: 188.211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
     
+}
+/************************************brands*************************************/
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  212px 0 160px 0;
 }
