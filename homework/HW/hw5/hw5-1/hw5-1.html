@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        body{
+           background-color: #007bff;
+
+
+        }
+        .sun{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            margin: 100px auto 0 auto;
+            border-radius: 100px;
+            animation: sun 5s linear infinite alternate;
+        }
+        @keyframes sun {
+           from {
+               transform:  translate(300px, 300px);
+
+           }
+           50%{
+               transform:  rotate(180deg);
+           }
+
+
+            to{
+
+                transform: scale(1.5) rotate(180deg);
+            }
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+<div class="sun"></div>
+
+</body>
+</html>
