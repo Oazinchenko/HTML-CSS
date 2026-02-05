@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+
+        }
+
+   .fly{
+       margin: 350px auto 0 auto;
+       display: flex;
+       justify-content: center;
+       align-items: flex-end;
+       animation: fly 5s linear infinite alternate;
+
+
+   }
+   @keyframes fly{
+     from{
+         transform: translateY(0) scale(1);
+     }
+   70%{
+       transform: translateY(-80vh) scale(1.2);
+   }
+    to{
+        transform: translateY(-120vh) scale(0.8);
+        opacity: 0;
+    }
+
+
+
+   }
+
+
+    </style>
+
+
+</head>
+<body>
+<div class="fly">
+    <img src="img/roket.jpg" alt="roket">
+   
+
+</div>
+
+
+
+</body>
+</html>
