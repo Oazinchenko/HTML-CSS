@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+       form sup{
+           color: red;
+       }
+
+       input{
+           width: 150px;
+       }
+       textarea{
+           resize: none;
+           width: 100px;
+       }
+
+    </style>
+
+
+
+
+</head>
+<body>
+<form class="form-registration">
+    <label for="name">Enter your name</label>
+    <input type="text" name="name" id="name" placeholder="Oksana" required> <sup>*</sup>
+
+    <label for="email">Enter your email</label>
+    <input type="email" name="name" id="email" placeholder=email required> <sup>*</sup>
+
+
+    <label for="password">Enter your password</label>
+    <input type="password" name="name" id="password" placeholder=1111 required> <sup>*</sup>
+
+    <label for="age">Enter your age</label>
+    <input type="number" name="age" id="age" min="18" max="99">
+
+    <label>Стать</label>
+    <label><input type="radio" name="gender" value="male">Чоловіча</label>
+    <label><input type="radio" name="gender" value="female">Жіноча</label>
+
+    <label>
+        <input type="checkbox" name="newsletter">Підписатись на новини
+    </label>
+
+    <label for="lorem">Країна</label>
+    <select name="" id="lorem">
+        <option value="">Оберіть країну</option>
+        <option value="ua">Україна</option>
+        <option value="usa">США</option>
+        <option value="can">Канада</option>
+        <option value="pl">Польша</option>
+    </select>
+
+        <label for="phone"></label>
+        <select id="phone">
+        <optgroup label="Apple">
+            <option value="11">Iphone11</option>
+            <option value="13">Iphone13</option>
+            <option value="14">Iphone14</option>
+            <option value="15">Iphone15</option>
+        </optgroup>
+            <optgroup label="Samsung">
+                <option value="23">E23</option>
+                <option value="22">E22</option>
+                <option value="21">E21</option>
+                <option value="20">E20</option>
+            </optgroup>
+        </select>
+
+    <label for="comment"></label>
+    <textarea name="comment" id="comment" cols="30" rows="4"></textarea>
+     <div>
+         <input type="submit" value="Надіслати">
+         <input type="reset" value="Скинути">
+     </div>
+
+    
+</form>
+
+
+
+</body>
+</html>
